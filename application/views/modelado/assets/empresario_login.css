@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #5b5bbb, #db6464);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*linear-gradient(to bottom, #5b5bbb, #d17979);*/
+}
+
+.margenes {
+    margin-inline: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario {
+    padding: 2em;
+    background-color: #db6464;
+    border-radius: 2em;
+    border: 0.15em solid black;
+}
+
+input {
+    padding: 1em;
+    margin: .5em;
+    border: 0.15em solid black;
+    border-radius: 2em;
+}
+
+button {
+    padding: 1em;
+    width: 70%;
+    border: 0.15em solid black;
+    border-radius: 2em;
+    cursor: pointer;
+    background-color: #936eeb;
+}
+
+img {
+    height: 5em;
+    width: 5em;
+}
+
+a {
+    margin-top: 1em;
+    font-size: .8em;
+    color: black;
+}

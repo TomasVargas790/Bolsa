@@ -1,0 +1,88 @@
+body{    
+    margin: 0;
+    margin-top: -1em;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #5b5bbb, #db6464);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+img{
+    width: 10em;
+}
+.postulado{
+    background-color: #c7364d;
+    padding:3em;
+    border-radius:2em;
+    margin:2em;
+    border:0.15em solid black
+}
+
+.datos{
+    margin-left: 2.5em;
+    margin-right: 7em;
+}
+
+.postulado a{
+    text-decoration: none;
+    color: black;
+    padding:.8em;
+    background-color: rgb(95, 95, 153);
+    width: 5em;
+    margin: 1em;
+}
+.postulado img{
+    border-radius: 100%;
+    width: 15em;
+    height: 15em;
+    border:0.15em solid black
+}
+
+nav ul{    
+    display: flex;
+    list-style: none;
+    background: rgb(163, 153, 153); 
+    padding: 1em;
+    border-bottom: 0.15em solid black;
+}
+nav ul li{
+    margin-left: 4em;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+.centrar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left{
+    align-self: flex-start;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+    
+}
+
+.panel_lateral{
+    width: 25em;
+    height: 50em;
+    background-color: #33DDFF;
+    margin-top:2em;
+    border-radius: 2em;
+    border:0.15em solid black
+}
+img:hover{
+    opacity:.6;
+    color: rgb(0, 0, 0);
+}

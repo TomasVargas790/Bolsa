@@ -1,0 +1,114 @@
+
+body{
+    margin: 0;
+    margin-top: -1em;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #5b5bbb, #db6464);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.column img{
+    border-radius: 100%;
+    width: 15em;
+    height: 15em;
+    border:0.15em solid black
+}
+
+.descripcion_perfil{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:0.15em solid black;
+    border-radius:2em;
+    margin-top:1em;
+    padding:2em;    
+    background-color:rgb(163, 153, 153);
+}
+
+form{
+    text-align: center
+}
+.centrar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+nav ul{    
+    display: flex;
+    list-style: none;
+    background: rgb(163, 153, 153); 
+    padding: 1em;
+    
+}
+nav ul li{
+    margin-left: 4em;
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+
+.hidden{
+    display: none;
+}
+
+.caja{
+    width: 40em;
+    background-color:#d88e8e;
+    border-radius:2em;
+    border:0.15em solid black;
+    margin:1em;
+}
+.caja h3{
+    margin-left:1em;
+}
+.row a{
+    text-decoration: none;
+}
+.margenes{
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.contacto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:0.15em solid black;
+    border-radius:2em;
+    margin-top:1em;
+    padding:2em;    
+    background-color:rgb(163, 153, 153);
+}
+.row a i{
+    font-size:x-large;
+    margin-right: 1em;
+}
+.title_editar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title_editar a{
+    color:rgb(96, 96, 184);
+}
+
+img:hover{
+    opacity:.4;
+    color: rgb(0, 0, 0);
+}
+.caja ul{
+    list-style: none;
+}

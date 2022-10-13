@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiante</title>
+    <link rel="stylesheet" href="../../assets/estudiante_login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="margenes">
+                <div id="register_estudiante" class="formulario">
+                    <form method="POST" action="">
+                        <h1>Estudiante</h1>
+                        <img src="../../assets/estudiante.svg" alt="">
+                        <input type="text" placeholder="Nombre" name="nombre" required>
+                        <input type="text" placeholder="Apellido" name="apellido" required>
+                        <input type="text" placeholder="Telefono" name="telefono" required>
+                        <input type="text" placeholder="Direccion" name="ubicacion" required>
+                        <input type="email" placeholder="Correo Electronico" name="correo" id="correo" required>
+                        <input type="password" placeholder="Contrasenia" name="password" id="password">
+                        <button>Registrar</button>
+                    </form>
+                </div>
+
+                <div data-aos="flip-left" id="login_estudiante" class="formulario">
+                    <form method="POST" action="">
+                        <h1>Estudiante</h1>
+                        <img src="../../assets/estudiante.svg" alt="">
+                        <input type="email" placeholder="Correo Electronico" name="correo" id="correo" required>
+                        <input type="password" placeholder="Contrasenia" name="password" id="password">
+                        <button type="submit">Iniciar Sesion</button>
+                        <button onclick=mostrar()>¿No tienes cuenta? Registrate!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        let login = document.getElementById("login_estudiante");
+        let register = document.getElementById("register_estudiante");
+
+        function mostrar() {
+            login.style.display = "none";
+            register.style.display = "flex";
+
+
+
+        }
+    </script>
+</body>
+
+</html>
