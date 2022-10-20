@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background:linear-gradient(181deg, #cea3e7 48%, #a05cdf 100%);
+    background: radial-gradient(53% 67% at 50% 81%, #cea3e7 48%, #a05cdf 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ body{
     text-decoration: none;    
     font-family: 'Ubuntu', sans-serif;
 }
-.nav-wrapper{
+.nav{
     background-color: #f3f2ccc4;
     padding:.1em;
 }
@@ -85,27 +85,3 @@ body{
 .box__descripcion{
     margin-top:3em;
 }
-/*
-.wrapper{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.empleado__panel{
-
-}
-.empleado__panel img{
-
-.empleado__box_container{
-}
-
-
-
-
-
-.empleado__box{
-
-}
-h1,h3{
-
-}*/
